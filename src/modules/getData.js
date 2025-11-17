@@ -1,4 +1,4 @@
-const getData = () => {
+const getData = str => {
   return fetch(
     "https://ozone-57d18-default-rtdb.firebaseio.com/goods.json"
   ).then(response => {
